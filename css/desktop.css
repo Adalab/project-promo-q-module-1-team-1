@@ -2,4 +2,26 @@
   .strenghts-container {
     width: 440px;
   }
+
+  .header{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between; 
+    background-size: 60px;
+  }
+   .team-name{
+    margin-left: 142px;
+    margin-top: 6px; 
+   }
+
+  .menu{
+    background-color: var(--blue-green);
+    margin-top: 15px;  
+    margin-right: 138px;
+      }
+    
+  ul.menu li{
+    display: flex;
+    padding: 10px;    
+  }
 }

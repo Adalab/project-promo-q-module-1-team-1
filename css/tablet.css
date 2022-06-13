@@ -1,5 +1,25 @@
 @media screen and (min-width: 768px) {
-  header {
-    background-color: coral;
+ 
+  .header{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between; 
+    background-size: 60px;
+  }
+   .team-name{
+    margin-left: 45px;
+    margin-top: 6px; 
+   }
+
+  .menu{
+    background-color: var(--blue-green);
+    margin-top: 15px;  
+    margin-right: 45px;
+      }
+    
+  ul.menu li{
+    display: flex;
+    padding: 10px;    
   }
 }
+
